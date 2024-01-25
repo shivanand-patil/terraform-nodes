@@ -1,0 +1,15 @@
+# Ignore Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ignore any local .terraform directories
+**/.terraform/
+
+# Ignore .tfvars files that are used to override variable values
+*.tfvars
+
+# Ignore files containing sensitive information such as provider credentials
+*.pem
+*.pem.pub
+
